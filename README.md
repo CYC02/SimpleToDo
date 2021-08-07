@@ -34,6 +34,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+When I tried to first run the program with the emulator, there were some problems in build.gradle. I had to change compileSdkVersion, buildToolsVersion, and targetSdkVersion to 30. This change allowed me to run the program on the emulator.
+
+I was also confused about matching the UI to make it look like the UI in the Codepath walkthrough video. The attribute panels didn't look the same because I had a later version of Android Studio. I also saw warnings regarding constraints and I fixed this by making sure the objects were constrained to at least 2 sides of the screen.
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
